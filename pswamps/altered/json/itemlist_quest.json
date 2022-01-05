@@ -1,0 +1,20 @@
+[
+    {
+        "id":"ring_mikhail",
+        "iconID":"items_jewelry:0",
+        "name":"Mikhail's ring",
+        "baseMarketCost":15,
+        "category":"ring",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":10,
+                "max":20
+            },
+            "increaseMaxHP":100,
+            "increaseMaxAP":2,
+            "increaseAttackChance":100,
+            "increaseBlockChance":60,
+            "increaseDamageResistance":10
+        }
+    }
+]

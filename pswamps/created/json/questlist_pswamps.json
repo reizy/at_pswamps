@@ -1,0 +1,126 @@
+[
+    {
+        "id":"time_temple",
+        "name":"Time temple",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":1,
+                "logText":"I found a hidden room for rite in basement of a strange ancient temple.",
+                "rewardExperience":200
+            },
+            {
+                "progress":20,
+                "logText":"I found the old notes. The only words I  recognised are \"... altar... To summon... polished gems...\". Should I put  polished gems on altar to summon someone?"
+            },
+            {
+                "progress":25,
+                "logText":"I  put  a polished gem on altar. Several aggressive spirits  appeared."
+            },
+            {
+                "progress":30,
+                "logText":"Strange glowing runes on the floor stop me."
+            },
+            {
+                "progress":55,
+                "logText":"I found a necklace with a gem on one of spirits in the temple and put the gem on altar. A slight earthquake shook the walls of the temple.",
+                "rewardExperience":1000
+            },
+            {
+                "progress":60,
+                "logText":"Looks like the fallen boulder somehow broke the barrier runes."
+            },
+            {
+                "progress":70,
+                "logText":"I got the ancient scroll."
+            },
+            {
+                "progress":100,
+                "logText":"I told Rorthron about the ancient scroll. He wants to look it."
+            },
+            {
+                "progress":110,
+                "logText":"I don't have the ancient scroll anymore.",
+                "finishesQuest":1
+            },
+            {
+                "progress":120,
+                "logText":"I gave the ancient scroll to Rorthron.  He promised to share the results of the research and return me the scroll. I should visit him later.",
+                "rewardExperience":1000
+            },
+            {
+                "progress":130,
+                "logText":"Rorthron said that he could not return the scroll because it  had damaged during the experiments. However, Rorthron said that the research was successful and in exchange for a few polished gems, he would be able to make me scrolls like this.",
+                "rewardExperience":1000
+            },
+            {
+                "progress":140,
+                "logText":"Rorthron said that he had made progress in making the scrolls and could make a better ones now. However now it will cost  gold and  require polished sparkling gems."
+            },
+            {
+                "progress":150,
+                "logText":"Rorthron said that he found new information about the ancient temple. If I put a powerful dark artifact  the altar, something will probably  happen."
+            },
+            {
+                "progress":160,
+                "logText":"I put a powerful dark artifact  the altar. The altar exploded and a great spirit attaked me.",
+                "rewardExperience":5000
+            },
+            {
+                "progress":170,
+                "logText":"I defeted the great spirit in the temple.",
+                "finishesQuest":1
+            }
+        ]
+    },
+    {
+        "id":"hydras_lair",
+        "name":"Hydras Lair",
+        "stages":[
+            {
+                "progress":10,
+                "logText":"I've found hydra's lair."
+            },
+            {
+                "progress":20,
+                "logText":"Hydra attaked me!"
+            }
+        ]
+    },
+    {
+        "id":"firepeople_settlment",
+        "name":"Firepeople settlment",
+        "stages":[
+            {
+                "progress":10,
+                "logText":"I've found  a settlment of firepeople"
+            }
+        ]
+    },
+    {
+        "id":"time_temple_hidden",
+        "name":"time_temple_hidden",
+        "stages":[
+            {
+                "progress":31,
+                "logText":"Rorthron sell me the first scroll."
+            },
+            {
+                "progress":32,
+                "logText":"Rorthron sell me the second scroll."
+            },
+            {
+                "progress":33,
+                "logText":"Rorthron sell me the 3rd scroll."
+            },
+            {
+                "progress":34,
+                "logText":"Rorthron sell me the 4th scroll."
+            },
+            {
+                "progress":35,
+                "logText":"Rorthron sell me the 5th scroll."
+            }
+        ]
+    }
+]

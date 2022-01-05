@@ -1,0 +1,8 @@
+[
+    {
+        "id":"magic_scroll",
+        "name":"Magic Scroll",
+        "actionType":"use",
+        "size":"std"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "id":"reizy",
+        "name":"reizy",
+        "iconID":"monsters_tometik7:33",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"wholeMap",
+        "attackDamage":{
+            "min":1,
+            "max":2
+        },
+        "spawnGroup":"reizy",
+        "droplistID":"reizy_test",
+        "attackChance":10,
+        "blockChance":10
+    }
+]

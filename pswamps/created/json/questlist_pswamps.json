@@ -88,16 +88,6 @@
         ]
     },
     {
-        "id":"firepeople_settlment",
-        "name":"Firepeople settlment",
-        "stages":[
-            {
-                "progress":10,
-                "logText":"I've found  a settlment of firepeople"
-            }
-        ]
-    },
-    {
         "id":"time_temple_hidden",
         "name":"time_temple_hidden",
         "stages":[

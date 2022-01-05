@@ -40,24 +40,6 @@
         }
     },
     {
-        "id":"elixir_of_giants",
-        "iconID":"items_japozero:303",
-        "name":"Elixir of giants",
-        "displaytype":"legendary",
-        "category":"pot",
-        "description":"This potion can change you forever",
-        "useEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"giant_strength",
-                    "magnitude":1,
-                    "duration":999,
-                    "chance":"100"
-                }
-            ]
-        }
-    },
-    {
         "id":"timewalker_gem",
         "iconID":"items_japozero:271",
         "name":"Timewalker Gem",
@@ -72,42 +54,6 @@
                     "magnitude":1,
                     "duration":1,
                     "chance":"1"
-                }
-            ]
-        }
-    },
-    {
-        "id":"biting_shield",
-        "iconID":"items_armours:4",
-        "name":"Biting Shield",
-        "displaytype":"legendary",
-        "category":"shld_mtl_hv",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":0,
-                "max":2
-            },
-            "increaseAttackChance":5,
-            "increaseBlockChance":10,
-            "increaseDamageResistance":1
-        },
-        "hitEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"sting_minor",
-                    "magnitude":1,
-                    "duration":1,
-                    "chance":"3"
-                }
-            ]
-        },
-        "hitReceivedEffect":{
-            "conditionsTarget":[
-                {
-                    "condition":"sting_minor",
-                    "magnitude":1,
-                    "duration":1,
-                    "chance":"20"
                 }
             ]
         }
@@ -131,71 +77,6 @@
                 {
                     "condition":"fatigue1",
                     "magnitude":-99
-                }
-            ]
-        }
-    },
-    {
-        "id":"Mjolnir",
-        "iconID":"items_misc_6:17",
-        "name":"Mjolnir",
-        "displaytype":"legendary",
-        "category":"hammer",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":10,
-                "max":15
-            },
-            "increaseAttackCost":7,
-            "increaseAttackChance":21,
-            "increaseCriticalSkill":10,
-            "increaseBlockChance":-9,
-            "setCriticalMultiplier":2.0,
-            "setNonWeaponDamageModifier":270,
-            "addedConditions":[
-                {
-                    "condition":"fatigue1",
-                    "magnitude":10
-                }
-            ]
-        },
-        "hitEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"haste",
-                    "magnitude":2,
-                    "duration":2,
-                    "chance":"5"
-                }
-            ],
-            "conditionsTarget":[
-                {
-                    "condition":"crushed",
-                    "magnitude":1,
-                    "duration":2,
-                    "chance":"1"
-                },
-                {
-                    "condition":"Shock",
-                    "magnitude":2,
-                    "duration":1,
-                    "chance":"10"
-                },
-                {
-                    "condition":"Shock",
-                    "magnitude":1,
-                    "duration":2,
-                    "chance":"10"
-                }
-            ]
-        },
-        "killEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"Shock",
-                    "magnitude":1,
-                    "duration":1,
-                    "chance":"5"
                 }
             ]
         }
@@ -269,52 +150,6 @@
                     "magnitude":2,
                     "duration":1,
                     "chance":"100"
-                }
-            ]
-        }
-    },
-    {
-        "id":"fire_sword",
-        "iconID":"items_weapons:41",
-        "name":"Fire sword",
-        "displaytype":"legendary",
-        "category":"bsword",
-        "equipEffect":{
-            "increaseAttackDamage":{
-                "min":2,
-                "max":4
-            },
-            "increaseMaxHP":-10,
-            "increaseMaxAP":0,
-            "increaseAttackCost":5,
-            "increaseAttackChance":10,
-            "increaseCriticalSkill":10,
-            "increaseBlockChance":5,
-            "setCriticalMultiplier":2.0,
-            "setNonWeaponDamageModifier":120
-        },
-        "hitEffect":{
-            "conditionsTarget":[
-                {
-                    "condition":"fire",
-                    "magnitude":3,
-                    "duration":3,
-                    "chance":"30"
-                }
-            ]
-        }
-    },
-    {
-        "id":"neck_giant_strength",
-        "iconID":"items_necklaces_1:5",
-        "name":"Giant necklace",
-        "displaytype":"legendary",
-        "category":"neck",
-        "equipEffect":{
-            "addedConditions":[
-                {
-                    "condition":"giant_strength",
-                    "magnitude":1
                 }
             ]
         }

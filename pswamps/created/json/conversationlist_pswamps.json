@@ -422,5 +422,25 @@
                 "value":20
             }
         ]
+    },
+    {
+        "id":"pswamp_safe_back_way",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"v_slime1_1",
+                "mapName":"poisonedswamps04"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"v_slime1_2",
+                "mapName":"poisonedswamps04"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"v_slime1_4",
+                "mapName":"poisonedswamps04"
+            }
+        ]
     }
 ]

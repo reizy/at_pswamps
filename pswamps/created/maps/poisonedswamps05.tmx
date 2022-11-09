@@ -53,7 +53,7 @@
   <image source="../drawable/map_entrance_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="1969" name="map_fence_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_fence_1.png" width="512" height="256"/>
+  <image source="../../altered/spritesheets/map_fence_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="2097" name="map_fence_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_fence_2.png" width="512" height="256"/>
@@ -238,5 +238,11 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys" visible="0"/>
+ <objectgroup name="Keys">
+  <object name="SafeBackWay" type="key" x="544" y="128" width="64" height="256">
+   <properties>
+    <property name="phrase" value="pswamp_safe_back_way"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

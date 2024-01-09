@@ -1,5 +1,164 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <worldmap>
+  <segment id="ratdom_cave" x="-26" y="-12">
+    <map id="ratdom_maze1" x="-6" y="-12"/>
+    <map id="ratdom_maze2" x="-15" y="-2"/>
+    <map id="ratdom_maze3" x="-26" y="8"/>
+    <map id="crossglen_cave" x="25" y="-12"/>
+  </segment>
+  <segment id="ratdom_level_4" x="0" y="0">
+    <map id="ratdom_maze_402" x="45" y="0"/>
+    <map id="ratdom_maze_403" x="75" y="0"/>
+    <map id="ratdom_maze_412" x="30" y="30"/>
+    <map id="ratdom_maze_413" x="60" y="30"/>
+    <map id="ratdom_maze_414" x="90" y="30"/>
+    <map area="ratdom_maze_bloskelt_area" id="ratdom_maze_415" x="120" y="30"/>
+    <map area="ratdom_maze_bloskelt_area" id="ratdom_maze_416" x="150" y="30"/>
+    <map id="ratdom_maze_417" x="180" y="30"/>
+    <map id="ratdom_maze_418" x="210" y="30"/>
+    <map id="ratdom_maze_421" x="15" y="60"/>
+    <map id="ratdom_maze_422" x="45" y="60"/>
+    <map id="ratdom_maze_423" x="75" y="60"/>
+    <map id="ratdom_maze_424" x="105" y="60"/>
+    <map id="ratdom_maze_425" x="135" y="60"/>
+    <map id="ratdom_maze_426" x="165" y="60"/>
+    <map id="ratdom_maze_427" x="195" y="60"/>
+    <map id="ratdom_maze_428" x="225" y="60"/>
+    <map id="ratdom_maze_432" x="30" y="90"/>
+    <map id="ratdom_maze_433" x="60" y="90"/>
+    <map id="ratdom_maze_434" x="90" y="90"/>
+    <map area="ratdom_maze_goldhunter_area" id="ratdom_maze_434b" x="105" y="90"/>
+    <map id="ratdom_maze_435" x="120" y="90"/>
+    <map id="ratdom_maze_436" x="150" y="90"/>
+    <map id="ratdom_maze_437" x="180" y="90"/>
+    <map id="ratdom_maze_438" x="210" y="90"/>
+    <map id="ratdom_maze_441" x="15" y="120"/>
+    <map id="ratdom_maze_442" x="45" y="120"/>
+    <map id="ratdom_maze_443" x="75" y="120"/>
+    <map id="ratdom_maze_444" x="105" y="120"/>
+    <map id="ratdom_maze_445" x="135" y="120"/>
+    <map id="ratdom_maze_446" x="165" y="120"/>
+    <map id="ratdom_maze_447" x="195" y="120"/>
+    <map area="ratdom_maze_entry_area" id="ratdom_maze_448" x="225" y="120"/>
+    <map id="ratdom_maze_453" x="60" y="150"/>
+    <map id="ratdom_maze_451" x="0" y="150"/>
+    <map id="ratdom_maze_452" x="30" y="150"/>
+    <map id="ratdom_maze_454" x="90" y="150"/>
+    <map id="ratdom_maze_455" x="120" y="150"/>
+    <map id="ratdom_maze_455a" x="135" y="159"/>
+    <map id="ratdom_maze_456" x="150" y="150"/>
+    <map id="ratdom_maze_457" x="180" y="150"/>
+    <map id="ratdom_maze_458" x="210" y="150"/>
+    <map id="ratdom_maze_461" x="15" y="180"/>
+    <map id="ratdom_maze_463" x="75" y="180"/>
+    <map area="ratdom_maze_instrument_maker" id="ratdom_maze_464" x="105" y="180"/>
+    <map id="ratdom_maze_466" x="165" y="180"/>
+    <map id="ratdom_maze_467" x="195" y="180"/>
+    <map id="ratdom_maze_476" x="150" y="210"/>
+    <namedarea id="ratdom_maze_bloskelt_area" name="Bloskelt + Roskelt" type="other"/>
+    <namedarea id="ratdom_maze_entry_area" name="Entry" type="other"/>
+    <namedarea id="ratdom_maze_goldhunter_area" name="Gold hunter" type="other"/>
+    <namedarea id="ratdom_maze_instrument_maker" name="Instrument maker" type="other"/>
+  </segment>
+  <segment id="ratdom_level_5" x="0" y="0">
+    <map id="ratdom_maze_506" x="165" y="0"/>
+    <map id="ratdom_maze_513" x="60" y="30"/>
+    <map id="ratdom_maze_514" x="90" y="30"/>
+    <map area="ratdom_maze_museum" id="ratdom_maze_515" x="120" y="30"/>
+    <map id="ratdom_maze_516" x="150" y="30"/>
+    <map id="ratdom_maze_517" x="180" y="30"/>
+    <map id="ratdom_maze_521" x="15" y="60"/>
+    <map id="ratdom_maze_522" x="45" y="60"/>
+    <map id="ratdom_maze_523" x="75" y="60"/>
+    <map id="ratdom_maze_524" x="105" y="60"/>
+    <map id="ratdom_maze_525" x="135" y="60"/>
+    <map id="ratdom_maze_526" x="165" y="60"/>
+    <map id="ratdom_maze_527" x="195" y="60"/>
+    <map id="ratdom_maze_531" x="0" y="90"/>
+    <map id="ratdom_maze_532" x="30" y="90"/>
+    <map id="ratdom_maze_533" x="60" y="90"/>
+    <map id="ratdom_maze_534" x="90" y="90"/>
+    <map area="ratdom_maze_goldhunter_area" id="ratdom_maze_535a" x="105" y="90"/>
+    <map id="ratdom_maze_535" x="120" y="90"/>
+    <map id="ratdom_maze_536" x="150" y="90"/>
+    <map id="ratdom_maze_537" x="180" y="90"/>
+    <map id="ratdom_maze_538" x="210" y="90"/>
+    <map id="ratdom_maze_541" x="15" y="120"/>
+    <map id="ratdom_maze_542" x="45" y="120"/>
+    <map id="ratdom_maze_543" x="75" y="120"/>
+    <map area="ratdom_maze_skeleton_dance" id="ratdom_maze_543d" x="90" y="120"/>
+    <map id="ratdom_maze_544" x="105" y="120"/>
+    <map id="ratdom_maze_545" x="135" y="120"/>
+    <map id="ratdom_maze_546" x="165" y="120"/>
+    <map id="ratdom_maze_547" x="195" y="120"/>
+    <map id="ratdom_maze_551" x="0" y="150"/>
+    <map id="ratdom_maze_552" x="30" y="150"/>
+    <map id="ratdom_maze_553" x="60" y="150"/>
+    <map id="ratdom_maze_554" x="90" y="150"/>
+    <map id="ratdom_maze_555" x="120" y="150"/>
+    <map id="ratdom_maze_557" x="180" y="150"/>
+    <map id="ratdom_maze_558" x="210" y="150"/>
+    <map id="ratdom_maze_562" x="45" y="180"/>
+    <map id="ratdom_maze_563" x="75" y="180"/>
+    <map id="ratdom_maze_564" x="105" y="180"/>
+    <map id="ratdom_maze_565" x="135" y="180"/>
+    <map id="ratdom_maze_566" x="165" y="180"/>
+    <map id="ratdom_maze_567" x="195" y="180"/>
+    <map area="ratdom_maze_labyrinth" id="ratdom_maze_568" x="225" y="180"/>
+    <map id="ratdom_maze_572" x="30" y="210"/>
+    <namedarea id="ratdom_maze_goldhunter_area" name="Gold hunter" type="other"/>
+    <namedarea id="ratdom_maze_skeleton_dance" name="Skeleton dance" type="other"/>
+    <namedarea id="ratdom_maze_museum" name="Museum" type="other"/>
+    <namedarea id="ratdom_maze_labyrinth" name="Labyrinth" type="other"/>
+  </segment>
+  <segment id="ratdom_level_6" x="0" y="0">
+    <map area="ratdom_maze_library" id="ratdom_maze_611" x="0" y="30"/>
+    <map id="ratdom_maze_612" x="30" y="30"/>
+    <map id="ratdom_maze_616" x="150" y="30"/>
+    <map id="ratdom_maze_617" x="180" y="30"/>
+    <map id="ratdom_maze_618" x="210" y="30"/>
+    <map id="ratdom_maze_621" x="15" y="60"/>
+    <map id="ratdom_maze_622" x="45" y="60"/>
+    <map id="ratdom_maze_623" x="75" y="60"/>
+    <map id="ratdom_maze_624" x="105" y="60"/>
+    <map id="ratdom_maze_625" x="135" y="60"/>
+    <map id="ratdom_maze_626" x="165" y="60"/>
+    <map area="ratdom_maze_roundlings_area" id="ratdom_maze_627" x="195" y="60"/>
+    <map id="ratdom_maze_628" x="225" y="60"/>
+    <map id="ratdom_maze_631" x="0" y="90"/>
+    <map id="ratdom_maze_632" x="30" y="90"/>
+    <map id="ratdom_maze_633" x="60" y="90"/>
+    <map id="ratdom_maze_634" x="90" y="90"/>
+    <map id="ratdom_maze_635" x="120" y="90"/>
+    <map id="ratdom_maze_636" x="150" y="90"/>
+    <map id="ratdom_maze_637" x="180" y="90"/>
+    <map id="ratdom_maze_638" x="210" y="90"/>
+    <map id="ratdom_maze_641" x="15" y="120"/>
+    <map id="ratdom_maze_642" x="45" y="120"/>
+    <map id="ratdom_maze_643" x="75" y="120"/>
+    <map id="ratdom_maze_644" x="105" y="120"/>
+    <map id="ratdom_maze_645" x="135" y="120"/>
+    <map id="ratdom_maze_646" x="165" y="120"/>
+    <map id="ratdom_maze_647" x="195" y="120"/>
+    <map id="ratdom_maze_648" x="225" y="120"/>
+    <map id="ratdom_maze_652" x="30" y="150"/>
+    <map id="ratdom_maze_653" x="60" y="150"/>
+    <map id="ratdom_maze_655" x="120" y="150"/>
+    <map id="ratdom_maze_656" x="150" y="150"/>
+    <map id="ratdom_maze_657" x="180" y="150"/>
+    <map id="ratdom_maze_658" x="210" y="150"/>
+    <map id="ratdom_maze_661" x="15" y="180"/>
+    <map id="ratdom_maze_662" x="45" y="180"/>
+    <map area="ratdom_maze_water_area" id="ratdom_maze_664" x="105" y="180"/>
+    <map id="ratdom_maze_666" x="165" y="180"/>
+    <map area="ratdom_maze_pub" id="ratdom_maze_705" x="135" y="0"/>
+    <map area="ratdom_maze_4_wells" id="ratdom_maze_768" x="225" y="180"/>
+    <namedarea id="ratdom_maze_water_area" name="Waterway" type="other"/>
+    <namedarea id="ratdom_maze_pub" name="Pub" type="other"/>
+    <namedarea id="ratdom_maze_library" name="Library" type="other"/>
+    <namedarea id="ratdom_maze_4_wells" name="4 wells" type="other"/>
+    <namedarea id="ratdom_maze_roundlings_area" name="Roundlings" type="other"/>
+  </segment>
   <segment id="haunted_underground" x="762" y="681">
     <map id="haunted_underground_1" x="762" y="705"/>
     <map id="haunted_underground_2" x="788" y="705"/>
@@ -197,7 +356,7 @@
     <map id="waytobrimhavencave3" x="442" y="270"/>
     <map id="waytobrimhavencave4" x="318" y="270"/>
   </segment>
-  <segment id="world1" x="1" y="-52">
+  <segment id="world1" x="-59" y="-52">
     <map id="blackwater_mountain0" x="53" y="469"/>
     <map id="blackwater_mountain1" x="32" y="448"/>
     <map id="blackwater_mountain2" x="32" y="437"/>
@@ -502,6 +661,7 @@
     <map id="way_to_sullengard_east5_filler" x="502" y="555"/>
     <map id="way_to_sullengard_east2a" x="502" y="520"/>
     <map id="sullengard_ravine2" x="502" y="535"/>
+    <map id="gapfillerhole" x="194" y="375"/>
     <map id="haunted_forest1" x="495" y="486"/>
     <map id="haunted_forest2" x="493" y="478"/>
     <map id="haunted_forest3" x="497" y="497"/>
@@ -533,6 +693,39 @@
     <map id="haunted_forest25" x="382" y="484"/>
     <map id="haunted_cemetery1" x="440" y="482"/>
     <map id="haunted_cemetery2" x="429" y="482"/>
+    <map id="lake_shore_road_0" x="147" y="480"/>
+    <map id="lake_shore_road_1" x="168" y="480"/>
+    <map id="lake_shore_road_2" x="147" y="503"/>
+    <map id="lake_shore_road_4" x="192" y="511"/>
+    <map id="lake_shore_road_3" x="168" y="511"/>
+    <map id="lake_shore_road_5" x="147" y="524"/>
+    <map id="lake_shore_road_6" x="168" y="535"/>
+    <map id="lake_shore_road_7" x="189" y="535"/>
+    <map id="lake_shore_road_8" x="189" y="563"/>
+    <map id="lake_shore_road_9" x="189" y="580"/>
+    <map id="galmore_10a" x="158" y="586"/>
+    <map id="way_to_sullengard_west_0" x="220" y="580"/>
+    <map id="way_to_sullengard_west_1" x="220" y="606"/>
+    <map id="way_to_sullengard_west_2" x="220" y="665"/>
+    <map id="way_to_sullengard_west_3" x="220" y="634"/>
+    <map id="way_to_sullengard_west_4" x="246" y="665"/>
+    <map id="way_to_sullengard_west_5" x="272" y="665"/>
+    <map id="way_to_sullengard_west_6" x="285" y="686"/>
+    <map id="way_to_aidem_camp_1" x="518" y="655"/>
+    <map id="aidem_camp" x="518" y="629"/>
+    <map id="sullengard_hill_west" x="285" y="665"/>
+    <map id="lake_shore_road7a" x="217" y="535"/>
+    <map id="lake_shore_road_8a" x="220" y="563"/>
+    <map id="flagstone_filler_east_1" x="126" y="484"/>
+    <map id="flagstone_filler_east_2" x="126" y="503"/>
+    <map id="rat_mountain_1" x="126" y="517"/>
+    <map id="rat_mountain_2" x="126" y="531"/>
+    <map id="rat_mountain_3" x="126" y="545"/>
+    <map id="rat_mountain_4" x="152" y="545"/>
+    <map id="rat_mountain_5" x="168" y="556"/>
+    <map id="rat_mountain_6" x="152" y="562"/>
+    <map id="rat_mountain_7" x="126" y="562"/>
+    <map id="rat_mountain_8" x="126" y="586"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>

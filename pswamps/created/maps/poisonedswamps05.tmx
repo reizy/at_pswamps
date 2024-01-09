@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="20" height="16" tilewidth="32" tileheight="32">
  <properties>
   <property name="outdoors" value="1"/>
@@ -242,6 +242,10 @@
   <object name="SafeBackWay" type="key" x="544" y="128" width="64" height="256">
    <properties>
     <property name="phrase" value="pswamp_safe_back_way"/>
+    <property name="requireId" value="venom_slime1"/>
+    <property name="requireNegation" value="false"/>
+    <property name="requireType" value="killedMonster"/>
+    <property name="requireValue" value="10"/>
    </properties>
   </object>
  </objectgroup>
